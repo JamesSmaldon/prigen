@@ -18,3 +18,5 @@ Python 2.7
 
 Usage:
 python prigen.py \<input vcxproj.filters filename\> \<output pri filename\>
+
+Tested with Visual Studio 2010 and Qt 4.7.4.
