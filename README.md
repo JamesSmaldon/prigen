@@ -20,3 +20,5 @@ Usage:
 python prigen.py \<input vcxproj.filters filename\> \<output pri filename\>
 
 Tested with Visual Studio 2010 and Qt 4.7.4.
+
+See http://stackoverflow.com/questions/15921380/how-to-generate-qt-pri-files-from-visual-studio-project-at-the-end-of-the-build for the question that originally prompted the development of this script.
