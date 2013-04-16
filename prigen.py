@@ -113,10 +113,10 @@ if __name__=="__main__":
 	options, args = parser.parse_args()
 
 	try:
-			if len(args) != 2:
-				parser.error("Incorrect number of arguments")
-			else:
-				input, output = args
-				generatePRIFile(input, output)
+		if len(args) != 2:
+			parser.error("Incorrect number of arguments")
+		else:
+			input, output = args
+			generatePRIFile(input, output)
 	except IOError, e:
 		print e.strerror
