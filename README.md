@@ -17,4 +17,4 @@ Requirements:
 Python 2.7
 
 Usage:
-python prigen.py <input vcxproj.filters filename> <output pri filename>
+python prigen.py \<input vcxproj.filters filename\> \<output pri filename\>
